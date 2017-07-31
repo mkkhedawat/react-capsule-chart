@@ -1,6 +1,6 @@
 {
   "name": "react-capsule-chart",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Capsule Chart for React",
   "main": "lib/index.js",
   "author": "Manish Kumar Khedawat",
@@ -19,6 +19,7 @@
   ],
   "devDependencies": {
     "@kadira/storybook": "^2.35.3",
+    "@storybook/storybook-deployer": "^2.0.0",
     "babel-cli": "^6.24.0",
     "babel-core": "^6.18.2",
     "babel-eslint": "^7.2.1",
@@ -38,12 +39,11 @@
     "react-addons-test-utils": "^15.4.2",
     "react-dev-utils": "^0.5.2",
     "react-dom": "^15.4.2",
-    "rimraf": "^2.6.1",
-    "@storybook/storybook-deployer" : "^2.0.0"
+    "rimraf": "^2.6.1"
   },
   "peerDependencies": {
-    "react": "15.x",
-    "prop-types": "^15.5.10"
+    "prop-types": "^15.5.10",
+    "react": "15.x"
   },
   "scripts": {
     "start": "npm run storybook",
